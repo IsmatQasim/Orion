@@ -1,0 +1,39 @@
+.booking {
+  border-radius: 20px;
+}
+.pills {
+  width: 30%;
+  height: auto; /* avoid percentage height for better scaling */
+  padding: 3px 15px;
+  border: 1px solid rgb(153, 153, 153);
+  background-color: rgb(247, 248, 249);
+  border-radius: 40px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+margin-top: 10px;
+
+}
+span {
+  font-size: 0.8rem !important;
+}
+@media (min-width: 768px) {
+  .pills {
+    width: auto;
+  }
+}
+@media (max-width: 800px) {
+  .pills {
+    padding: 4px;
+  }
+}
+
+#passengerType,
+#flightType {
+  width: 200px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: rgb(247, 248, 249);
+  margin-top: 10px;
+  /* margin-left: -10px; */
+}
