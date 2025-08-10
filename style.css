@@ -17,6 +17,35 @@
   color: var(--primary-color);
 }
 
+.navbar-close {
+  position: absolute;
+  top: -38px;
+  left: 15px;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  color: #666;
+  cursor: pointer;
+  z-index: 1000;
+  display: none;
+}
+
+.navbar-close:hover {
+  color: #333;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse.show .navbar-close {
+    display: block;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    position: relative;
+    padding-top: 20px;
+  }
+}
 .dropdown-item,
 .dropdown-divider {
   padding: 0 !important;

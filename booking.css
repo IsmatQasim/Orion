@@ -3,7 +3,7 @@
 }
 .pills {
   width: 30%;
-  height: auto; /* avoid percentage height for better scaling */
+  height: auto;
   padding: 3px 15px;
   border: 1px solid rgb(153, 153, 153);
   background-color: rgb(247, 248, 249);
